@@ -1,0 +1,69 @@
+#post-list {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+#post-list article {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#post-list header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#post-list .user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#post-list .user-info span {
+  font-size: 13px;
+}
+
+#post-list .place {
+  margin-top: 3px;
+  font-size: 11px;
+  color: #666;
+}
+
+#post-list article > img {
+  width: 100%;
+}
+
+#post-list footer {
+  padding: 20px;
+}
+
+#post-list .actions {
+  margin-bottom: 10px;
+}
+
+#post-list .actions button {
+  background-color: transparent;
+  border: 0;
+}
+
+#post-list .actions img {
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#post-list footer p {
+  margin-top: 2px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#post-list footer span {
+  display: block;
+  color: #7159c1;
+  cursor: pointer;
+}
