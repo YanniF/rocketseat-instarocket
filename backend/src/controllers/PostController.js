@@ -1,7 +1,7 @@
-const Post = require('../models/Post');
 const sharp = require('sharp');
 const path = require('path');
 const fs = require('fs');
+const Post = require('../models/Post');
 
 module.exports = {
   async index(req, res) {
