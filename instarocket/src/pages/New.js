@@ -1,12 +1,19 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { Text, View, StyleSheet } from 'react-native'
 
 export default class New extends Component {
+
+  static navigationOptions = {
+    headerTitle: 'Nova publicação'
+  }
+
   render() {
     return (
       <View>
-        <Text> New </Text>
+        
       </View>
     )
   }
 }
+
+// const styles = StyleSheet.create
